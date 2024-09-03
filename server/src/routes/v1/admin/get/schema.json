@@ -1,0 +1,10 @@
+{
+    "body": {
+        "type": "object",
+        "required": [],
+        "properties": {
+
+        }
+    },
+    "headers": { "$ref": "headersSchema#" }
+}

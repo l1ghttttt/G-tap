@@ -1,0 +1,22 @@
+.Placeholder--container {
+    text-align: center;
+}
+
+.Placeholder--container img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 24px auto;
+}
+
+.Placeholder--container .Icon {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 16px auto;
+}
+
+.Placeholder--container p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray_text_color);
+    margin-top: 16px;
+}

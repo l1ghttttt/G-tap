@@ -1,0 +1,22 @@
+.MyTeamButton--container {
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    background: var(--accent_color);
+    border-radius: 16px;
+}
+
+.MyTeamButton--join {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.MyTeamButton--join p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.MyTeamButton--join .Icon16Chevron {
+    margin-left: auto;
+}

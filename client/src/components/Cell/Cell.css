@@ -1,0 +1,67 @@
+.Cell--container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Cell--before {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+.Cell--before img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.Cell--after {
+    margin-left: 16px;
+    color: var(--gray_light_color);
+    flex-shrink: 0;
+}
+
+.Cell--content {
+    flex: 1;
+    max-width: calc(100% - 80px); /* Учитывая ширину before и after */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.Cell--title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Cell--title {
+    font-size: 18px;
+    font-weight: 500;
+    overflow: hidden;
+    color: var(--black_color);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+}
+
+.Cell--title-after {
+    margin-left: 16px;
+    flex-shrink: 0;
+}
+
+.Cell--children {
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--gray_text_color);
+    display: flex;
+    gap: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

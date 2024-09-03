@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    /*--font-name: 'Geologica roman';*/
+    --font-name: 'Inter';
+
+    font-style: normal;
+    font-family: var(--font-name), system-ui !important;
+
+    --accent_color: #7148e0;
+    --accent_color1: #532BC0;
+    --background_color: #141414;
+    --background_1_color: #000;
+    --background_gray_color: #252525;
+    --black_color: #fff;
+    --gray_text_color: #6C6C6C;
+    --gray_light_color: var(--gray_text_color);
+
+    --nextui-font-size-medium: 17px;
+}
+
+html, body {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+html {
+    line-height: normal;
+}
+
+body {
+    margin: 0;
+    background: var(--background_color);
+    color: #fff;
+
+    scroll-behavior: smooth !important;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch !important;
+    touch-action: none !important;
+}
+
+h1, h2, h3, h4, h5, p, a, span {
+    margin: 0;
+    color: #fff;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900 !important;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700 !important;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700 !important;
+}
+
+button {
+    border: none;
+}
+
+.text-14-medium {
+    font-weight: 400 !important;
+    font-size: 14px;
+}
+
+.text-16-medium {
+    font-weight: 400 !important;
+    font-size: 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.font-normal {
+    font-weight: 600 !important;
+}

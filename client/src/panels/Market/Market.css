@@ -1,0 +1,22 @@
+.Market--current-earnings {
+    text-align: center;
+}
+
+.Market--current-earnings p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Market--current-earnings span {
+    padding-top: 4px;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--gray_text_color);
+}
+
+.Market--current-earnings--coins {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #C33FED;
+    padding-top: 4px;
+}

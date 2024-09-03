@@ -1,0 +1,18 @@
+.Score--container {
+    width: 100%;
+    /*display: flex;
+    align-items: center;*/
+    text-align: center;
+}
+
+.Score--container h1 {
+    margin: 0 auto;
+}
+
+.Score--container h1 span {
+    color: rgba(256, 256, 256, .5);
+}
+
+.Score--container p {
+    font-size: 20px;
+}

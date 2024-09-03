@@ -1,0 +1,31 @@
+.ChannelBlock--container {
+    width: max-content;
+    background: #000;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+
+.ChannelBlock--image, .ChannelBlock--image img {
+    width: 32px;
+    height: 32px;
+}
+
+.ChannelBlock--content {
+    margin-left: 10px;
+}
+
+.ChannelBlock--content--username {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ChannelBlock--content--text {
+    font-weight: 400;
+    font-size: 10px;
+    color: var(--gray_text_color);
+    margin-top: 1px;
+}

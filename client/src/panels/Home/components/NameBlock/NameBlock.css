@@ -1,0 +1,36 @@
+.NameBlock--container {
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.NameBlock--container img {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: var(--accent_color);
+}
+
+.NameBlock--image {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background: var(--accent_color);
+    padding: 9px 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.NameBlock--container p {
+    margin-left: 16px;
+    font-size: 19px;
+    font-weight: 500 !important;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 5em;
+}

@@ -1,0 +1,20 @@
+.EmojiRectangle--container {
+    width: 48px;
+    height: 48px;
+    background: #515151;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.EmojiRectangle--container img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.EmojiRectangle--container .Icon {
+    width: 22px;
+    height: 22px;
+    margin: 0 auto;
+}

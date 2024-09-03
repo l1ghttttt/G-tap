@@ -1,0 +1,22 @@
+.TabBarItem--container {
+    width: max-content;
+    height: max-content;
+    text-align: center;
+}
+
+.TabBarItem--container p {
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.TabBarItem--container .Icon {
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+}
+
+.TabBarItem--container--disable .Icon path, .TabBarItem--container--disable p {
+    fill: var(--gray_text_color);
+    color: var(--gray_text_color);
+}

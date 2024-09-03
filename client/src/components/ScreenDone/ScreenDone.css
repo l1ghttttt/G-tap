@@ -1,0 +1,57 @@
+.ScreenDone--container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ScreenDone--rectangle {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    /*border: 2px solid var(--background_color);*/
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0; /* Начальная непрозрачность */
+    transform: scale(0.5); /* Начальный размер – уменьшен наполовину */
+    animation: fadeIn .2s ease-in-out forwards, fadeOut .2s ease-in-out 1s forwards; /* Последовательные анимации: появление и исчезновение */
+}
+
+.ScreenDone--rectangle svg {
+    width: 44px;
+    height: 44px;
+}
+
+.ScreenDone--rectangle svg path {
+    fill: #000;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* При старте анимации - полностью прозрачный */
+        transform: scale(0.5); /* Начальный размер – уменьшен наполовину */
+    }
+    to {
+        opacity: 1; /* В конце анимации - полностью непрозрачный */
+        transform: scale(1); /* Конечный размер */
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1; /* При старте анимации - полностью непрозрачный */
+        transform: scale(1); /* Начальный размер */
+    }
+    to {
+        opacity: 0; /* В конце анимации - полностью прозрачный */
+        transform: scale(0.5); /* Конечный размер – уменьшен наполовину */
+    }
+}

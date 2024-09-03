@@ -1,0 +1,17 @@
+.ItemsContainer--container {
+    width: 100%;
+}
+
+.ItemsContainer--container .PlanCard--container {
+    margin-bottom: 16px;
+}
+.ItemsContainer--container .PlanCard--container:last-child {
+    margin-bottom: 0;
+}
+
+.ItemsContainer--container .InstructionStep--container {
+    margin-bottom: 16px;
+}
+.ItemsContainer--container .InstructionStep--container:last-child {
+    margin-bottom: 0;
+}

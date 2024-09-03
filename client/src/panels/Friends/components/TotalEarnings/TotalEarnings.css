@@ -1,0 +1,19 @@
+.TotalEarnings--container {
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 4px solid #6B6975;
+    text-align: center;
+}
+
+.TotalEarnings--container h3 {
+    font-size: 24px;
+}
+
+.TotalEarnings--container p {
+    font-size: 16px;
+    margin-top: 4px;
+    font-weight: 400;
+    color: var(--gray_text_color);
+}

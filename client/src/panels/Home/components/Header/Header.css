@@ -1,0 +1,8 @@
+.Header--container {
+    display: flex;
+}
+
+.Header--right {
+    width: max-content;
+    margin-left: auto;
+}

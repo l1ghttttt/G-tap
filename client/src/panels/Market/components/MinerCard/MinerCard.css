@@ -1,0 +1,54 @@
+.MinerCard--image img {
+    height: 46px;
+    margin: 0 auto;
+}
+
+.MinerCard--info {
+    margin-top: 8px;
+
+    display: flex;
+    align-items: center;
+}
+
+.MinerCard--info--left, .MinerCard--info--right {
+    width: 100%;
+}
+
+.MinerCard--info--left {
+    text-align: right;
+}
+
+.MinerCard--info--right {
+
+}
+
+.MinerCard--info--divider {
+    height: 29px;
+    width: 1px;
+    background: #424242;
+    margin: 0 8px;
+}
+
+.MinerCard--info--text {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.MinerCard--info--description {
+    font-size: 8px;
+    font-weight: 400;
+    margin-top: 2px;
+    color: var(--gray_text_color);
+}
+
+.MinerCard--info--description p {
+    color: #C33FED;
+}
+
+.MinerCard--category-default .MinerCard--info--right .MinerCard--info--text {
+    color: #C33FED;
+}
+
+.MinerCard--category-special .MinerCard--info--right .MinerCard--info--text {
+    color: #A0845A;
+}

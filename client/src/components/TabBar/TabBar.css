@@ -1,0 +1,15 @@
+.TabBar--container {
+    width: 100%;
+    background: #000;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    padding: 16px 32px 20px 32px;
+    box-sizing: border-box;
+}
+
+.TabBar--content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

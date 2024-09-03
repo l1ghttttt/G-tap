@@ -1,0 +1,13 @@
+.Card--container {
+    width: 100%;
+    background: var(--background_gray_color);
+    border-radius: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.Card--content {
+    width: 100%;
+}

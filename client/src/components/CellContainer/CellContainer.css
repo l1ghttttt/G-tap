@@ -1,0 +1,28 @@
+.CellContainer--container {
+    width: 100%;
+    padding: 24px 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: var(--background_gray_color);
+}
+
+.CellContainer--container button {
+    margin-bottom: 16px;
+}
+.CellContainer--container button:last-child {
+    margin-bottom: 0;
+}
+
+.CellContainer--container .Cell--container {
+    margin-bottom: 16px;
+}
+.CellContainer--container .Cell--container:last-child {
+    margin-bottom: 0;
+}
+
+.CellContainer--container .PlanCard--container {
+    margin-bottom: 16px;
+}
+.CellContainer--container .PlanCard--container:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,72 @@
+{
+    "name": "clicker_client",
+    "homepage": "./",
+    "version": "1.0.0",
+    "license": "MIT",
+    "proxy": "http://localhost:3000",
+    "scripts": {
+        "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
+        "build": "GENERATE_SOURCEMAP=false react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "deploy": "firebase deploy --only hosting"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.3",
+        "@emotion/styled": "^11.11.0",
+        "@ladle/react": "^4.0.2",
+        "@nextui-org/react": "^2.2.10",
+        "@react-spring/web": "^9.7.3",
+        "@ton/ton": "^13.11.1",
+        "@tonconnect/ui-react": "^2.0.0",
+        "@vkruglikov/react-telegram-web-app": "^2.1.9",
+        "ajv": "^8.17.1",
+        "ajv-keywords": "^5.1.0",
+        "axios": "^1.6.5",
+        "canvas-confetti": "^1.9.3",
+        "framer-motion": "^11.0.8",
+        "i18next": "^23.10.1",
+        "notistack": "^3.0.1",
+        "react": "18.2.0",
+        "react-animated-number": "^0.4.4",
+        "react-animated-numbers": "^0.18.0",
+        "react-confetti": "^6.1.0",
+        "react-confetti-boom": "^1.0.0",
+        "react-countdown": "^2.3.5",
+        "react-dom": "18.2.0",
+        "react-i18next": "^14.1.0",
+        "react-redux": "^9.1.0",
+        "react-router-dom": "^6.21.1",
+        "react-simple-snackbar": "^1.1.11",
+        "react-spring": "^9.7.3",
+        "redux": "^5.0.1",
+        "tailwindcss": "^3.4.1"
+    },
+    "devDependencies": {
+        "@redux-devtools/extension": "^3.3.0",
+        "@types/node": "^20.10.5",
+        "@types/react": "^18.2.45",
+        "@types/react-dom": "^18.2.18",
+        "cross-env": "^7.0.3",
+        "react-scripts": "^5.0.1",
+        "typescript": "^5.3.3"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

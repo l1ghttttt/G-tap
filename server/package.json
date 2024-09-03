@@ -1,0 +1,62 @@
+{
+    "name": "clicker_server",
+    "version": "1.0.0",
+    "private": false,
+    "main": "src/index.js",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon src/index.js",
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "@fastify/cors": "^8.2.1",
+        "@fastify/formbody": "^7.4.0",
+        "@fastify/multipart": "^8.1.0",
+        "@fastify/mysql": "^4.2.0",
+        "@fastify/rate-limit": "^8.0.0",
+        "@fastify/static": "^6.10.1",
+        "@fastify/type-provider-typebox": "^3.5.0",
+        "@fastify/under-pressure": "^8.3.0",
+        "@grammyjs/auto-retry": "^1.1.1",
+        "@grammyjs/conversations": "^1.2.0",
+        "@grammyjs/i18n": "^1.0.2",
+        "@grammyjs/runner": "^2.0.3",
+        "@sinclair/typebox": "^0.31.1",
+        "@tonclient/core": "^1.30.0",
+        "@tonclient/lib-node": "^1.30.0",
+        "axios": "^1.5.1",
+        "concurrently": "^7.4.0",
+        "dotenv": "^16.4.1",
+        "fastify": "^4.6.0",
+        "fastify-cli": "^5.5.0",
+        "fastify-log": "^1.2.2",
+        "fastify-raw-body": "^4.3.0",
+        "fastify-socket.io": "^5.0.0",
+        "fetch": "^1.1.0",
+        "fetch-node": "^0.0.1",
+        "fluent-json-schema": "^4.1.0",
+        "grammy": "^1.20.3",
+        "md5": "^2.3.0",
+        "mysql2": "^3.9.3",
+        "node-cache": "^5.1.2",
+        "node-cron": "^3.0.3",
+        "node-fetch": "^3.3.2",
+        "socket.io": "^4.7.5",
+        "ton-client-node-js": "^0.28.0",
+        "tonapi-sdk-js": "^1.0.10",
+        "ts-node": "^10.9.1",
+        "winston": "^3.8.2"
+    },
+    "include": [
+        "src"
+    ],
+    "devDependencies": {
+        "@types/node": "^20.5.1",
+        "nodemon": "^2.0.20",
+        "typescript": "^5.1.6"
+    },
+    "nodemonConfig": {
+        "ext": ".js"
+    }
+}
